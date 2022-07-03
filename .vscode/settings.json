@@ -1,0 +1,14 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "sokol_app.h": "c",
+        "sokol_gfx.h": "c",
+        "stb_image.h": "c",
+        "array": "c",
+        "*.tcc": "c",
+        "algorithm": "c",
+        "random": "c",
+        "numeric": "c",
+        "extension.h": "c"
+    }
+}

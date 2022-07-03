@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            "compilerPath": "C:/Users/kai/scoop/apps/gcc/current/bin/gcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                "-lglfw",
+                "-Wl,-subsystem,windows",
+                "-lwinmm",
+                "-lgdi32",
+                "-lws2_32 "
+            ]
+        }
+    ],
+    "version": 4
+}

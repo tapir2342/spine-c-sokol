@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/kai/Projects/fun-with-opengl'
+gcc src/*.c -Iinclude -lglfw  -o cool
+./cool
+make: Leaving directory `/Users/kai/Projects/fun-with-opengl'
+ 
